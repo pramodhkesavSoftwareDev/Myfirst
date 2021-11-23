@@ -10,7 +10,7 @@ bubble(a);
 }
 static void bubble(int a[])
 {
-int n=a.length;
+int n=a.length-1;
 int i,j,temp;
 for(i=0;i<n;i++){
 for(j=i+1;j<n;j++){
